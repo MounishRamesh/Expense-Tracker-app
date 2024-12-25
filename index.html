@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Expense Tracker App</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+    <div class="container">
+        <!-- Section to Enter Financial Data -->
+        <div class="section-box">
+            <h1>Expense Tracker</h1>
+            <label for="income">Add Income: </label>
+            <input type="number" id="income" placeholder="Enter Income" />
+            <button class="btn" id="addIncome">Add Income</button>
+            <br />
+            <label for="expenses">Add Expenses: </label>
+            <input type="number" id="expenses" placeholder="Enter Expenses" />
+            <button class="btn" id="addExpenses">Add Expenses</button>
+            <br />
+            <label for="savings">Add Savings: </label>
+            <input type="number" id="savings" placeholder="Enter Savings" />
+            <br />
+            <button class="btn" id="updateChart">Update Chart</button>
+        </div>
+
+        <!-- Total Balance -->
+        <div class="section-box">
+            <h3>Total Balance: ₹<span id="totalBalance">0</span></h3> <!-- Change Dollar to ₹ -->
+        </div>
+
+        <!-- Section for Pie Chart -->
+        <div class="section-box">
+            <h2>Progress Overview</h2>
+            <canvas id="progressChart"></canvas>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

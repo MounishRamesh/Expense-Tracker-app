@@ -1,0 +1,67 @@
+/* Background color can be changed here */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4; /* Highlight this line to change the background color */
+}
+
+/* Full-screen layout and centered content */
+.container {
+    text-align: center;
+    max-width: 100%;
+    padding: 20px;
+}
+
+/* Section Box Styling */
+.section-box {
+    background-color: white;
+    margin: 20px auto;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    max-width: 80%; /* Makes each section extend nearly full width */
+}
+
+/* Larger and centered headings */
+h1 {
+    font-size: 36px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+h2, h3 {
+    font-size: 30px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+/* Input Fields and Button Styling */
+input {
+    padding: 8px;
+    margin: 10px 0;
+    border-radius: 5px;
+    width: 70%;
+    font-size: 16px;
+}
+
+.btn {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: #0056b3;
+}
+
+/* Center the pie chart */
+canvas {
+    display: block;
+    margin: 0 auto;
+    max-width: 400px;
+    max-height: 400px;
+}
